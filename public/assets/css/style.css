@@ -1,0 +1,200 @@
+*, *::before, *::after {box-sizing: inherit;}
+html {box-sizing: border-box; }
+
+body{
+    background-color: #D4F8FC;
+    overflow: visible;
+}
+
+.wrapper{
+    width: 55%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: block;
+}
+
+
+
+
+@media only screen and (min-width: 0px){
+    .message::before{
+
+        content: "Please view on a larger device.";
+        
+    }
+
+    .wrapper{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 301px){
+    p.message{
+        display: none;
+    }
+
+    /* .completed-task-li{
+        width: 30%;
+    } */
+
+    /* .task-ul{
+        width: 30%;
+    } */
+
+    .card-task{
+        width: 100% !important;
+    }
+
+    .wrapper{
+        display: block;
+        top: 90%; 
+        width: 90%;
+        margin-left: auto !important;
+    }
+}
+
+
+@media only screen and (min-width: 501px){
+    p.message{
+        /* content: "Please view on a larger device."; */
+        display: none;
+        
+    }
+
+    /* .completed-task-li{
+        width: 80%;
+    } */
+
+    .wrapper{
+        display: block;
+        top: 90%; 
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    p.message{
+        /* content: "Please view on a larger device."; */
+        display: none;
+        
+    }
+
+    /* .completed-task-li{
+        width: 80%;
+    } */
+
+    .wrapper{
+        display: block;
+        top: 50%; 
+        width: 80%;
+    }
+}
+
+
+/* @media only screen and (min-width: 388px){
+    .wrapper{
+       top: 105%; 
+       width: 100%;
+    }
+
+    .completed-task-li{
+        width: 60%;
+    }
+} */
+
+/* @media only screen and (min-width: 411px){
+    .wrapper{
+       top: 130%; 
+       width: 90%;
+    }
+} */
+
+/* @media only screen and (min-width: 473px){
+    .wrapper{
+       top: 220%; 
+       width: 90%;
+    }
+
+    .completed-task-li{
+        width: 80%;
+    }
+} */
+
+/* extra small */
+/* Screens that are 576px or greater */
+/* @media only screen and (min-width: 576px){
+    .wrapper{
+       top: 215%; 
+       width: 70%;
+    }
+} */
+
+/* medium */
+/* @media only screen and (min-width: 768px){
+    .wrapper{
+       top: 220%; 
+    }
+} */
+
+/* large */
+/* @media only screen and (min-width: 992px){
+    .wrapper{
+       top: 110%; 
+    }
+} */
+
+/* extra large */
+/* @media only screen and (min-width: 1200px){
+    .wrapper{
+       top: 60%; 
+    }
+} */
+
+/* @media only screen and (min-width: 1500px){
+    .wrapper{
+       top: 60%; 
+    }
+} */
+
+/* extra large */
+/* @media only screen and (min-width: 1800px){ */
+    /* body{
+        overflow-y: hidden;
+    } */
+    /* .wrapper{
+       top: 60%; 
+    }
+} */
+
+/* extra large */
+/* @media only screen and (min-width: 1900px){
+    .wrapper{
+       top: 50%; 
+    }
+} */
+
+/* extra large */
+/* @media only screen and (min-width: 2000px){
+
+    .wrapper{
+       top: 60%; 
+    }
+} */
+
+
+
+
+
+/* COMMENTED YESTERDAY */
+
+/* @media only screen and (max-width: 3000px){
+    .wrapper{
+       top: 70%; 
+    }
+} */
+
