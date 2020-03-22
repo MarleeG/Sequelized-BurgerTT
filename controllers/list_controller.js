@@ -1,13 +1,8 @@
 const log = console.log;
 const router = require("express").Router();
 var db = require("../models/");
-// const list = require("../models/list");
 
-// WORKING EXAMPLES FOR LIST
-// list.read(res => log(res));
-// list.create('Cook', res => log(res));
-// list.delete(4, res => log(res));
-// list.update(10, res => log(res));
+
 
 router.get("/", (req, res) => {
     res.render('home');
